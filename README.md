@@ -1,36 +1,88 @@
-# OMG Network Guide
+# OMG Network Knowledge Base
 
-The [OMG Network Guide](https://guide.omgnetwork.org) was conceived as a joint effort between the OMG community and project team to support quality communication and discourse concerning the OMG Network. The OMG KB is maintained by [community contributors](https://github.com/buildOMG/kb/graphs/contributors) and reflects an ongoing collection of curated information on the status and development of the [OMG Network](https://omisego.co).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## **Use**
+A community-maintained knowledge base for the [OMG Network](https://omisego.co), providing curated information about the project's status, development, and operation.
 
-The intention of the knowledge base is to provide this collection of information in a laymen's way so that it can be used for informational purposes. Data can be collected off via gitbook\(needs citation\) and is formatted to allow for programmatic access for various applications. \(list other uses here\)
+## What is this?
 
-## **Contents**
+The OMG Network Knowledge Base (KB) is a comprehensive, community-driven resource designed to answer questions about the OMG Network. It serves both as a human-readable guide and as structured data for programmatic use.
 
-The knowledge base is comprised of information that leads to known answers of questions commonly \(or not so commonly\) asked. It contains general and specific information related to progress of the project, information about operation of the network, the companies' intentions and lots of other information one might find helpful in understanding the network.
+## Quick Links
 
-## **Development**
+- [📖 Live Knowledge Base](https://kb.buildomg.org) — Browse the KB online
+- [🤝 Contributing Guide](CONTRIBUTING.md) — How to contribute
+- [📋 Code of Conduct](CODE_OF_CONDUCT.md) — Community guidelines
+- [📝 QnA Data Guidelines](qna/qna_data.md) — Guidelines for Q&A content
 
-Because of the Open Source nature of the project, we are actively seeking [contributors](https://kb.buildomg.org/kb/development/contributing) from people who have a desire to help the project reach it's full potential. Users must uphold the rules set forth in our [Code of Conduct](https://kb.buildomg.org/kb/development/code-of-conduct).
+## Contents
 
-## **Programmatic Access to the data**
+The knowledge base covers:
 
-_How to access the knowledge database in your application_ _Documentation about getting information off of Gitbook \(hard links etc\)_
+| Section | Description |
+|---------|-------------|
+| **FAQ** | Frequently asked questions about OMG Network |
+| **Use Cases** | Practical applications and examples |
+| **Development** | Technical documentation and guides |
+| **Resources** | Links to official docs, tools, and communities |
+| **QnA Data** | Structured question-answer pairs for bot training |
 
-## **Goals**
+## How to Use
 
-_List of near term goals to get the knowledge base 100% for initial version 1 release_
+### As a Reader
 
-## **KB Milestones**
+1. Browse the [live site](https://kb.buildomg.org) for easy navigation
+2. Use the search function to find specific topics
+3. Check the FAQ section for common questions
 
-_Milestones / Mid term goals for what to do regarding increasing the utility of the program, additional apis, further chat integrations, automated chat support AI’s etc._
+### As a Developer
 
-## **Resources**
+The KB data is available in structured formats:
 
-A Reddit Bot was created with user patients and loving care \(link\)
+- **`kb.md`** — Main knowledge base content in Markdown
+- **`qna/`** — Structured Q&A pairs for bot training
+- **API access** — Data formatted for programmatic consumption
 
-We would like to thank our [contributors](https://github.com/buildOMG/kb/graphs/contributors) for the time they have spent in assisting in the development of this project
+## How to Contribute
 
-The Knowledge Base is released under the [MIT License](https://kb.buildomg.org/use-1/use)
+We welcome contributions from the community! Here's how to get started:
 
+1. **Fork** this repository
+2. **Create a branch** for your changes
+3. **Make your changes** following our guidelines
+4. **Submit a Pull Request**
+
+See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
+
+### Content Guidelines
+
+- Write in clear, accessible language
+- Follow the [QnA Data Guidelines](qna/qna_data.md) for question-answer content
+- Keep questions succinct and focused
+- Cite sources where applicable
+
+## Project Structure
+
+```
+kb/
+├── contents/       # KB content organized by topic
+├── development/    # Technical documentation
+├── faq/            # Frequently asked questions
+├── qna/            # Structured Q&A data
+├── resources/      # External links and references
+├── use/            # Use cases and examples
+├── redditbot/      # Reddit bot integration
+├── kb.md           # Main knowledge base file
+└── SUMMARY.md      # Navigation summary
+```
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## Community
+
+- [OMG Network Website](https://omisego.co)
+- [GitHub Repository](https://github.com/buildOMG/kb)
+- [Contributors](https://github.com/buildOMG/kb/graphs/contributors)
